@@ -88,6 +88,7 @@ var ViewPager = React.createClass({
             return true;
           }
         }
+        return false;
       },
 
       // Touch is released, scroll to the one that you're closest to
