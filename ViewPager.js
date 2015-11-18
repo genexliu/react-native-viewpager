@@ -90,6 +90,7 @@ var ViewPager = React.createClass({
         }
         return false;
       },
+      onMoveShouldSetResponder: () => false,
 
       // Touch is released, scroll to the one that you're closest to
       onPanResponderRelease: release,
