@@ -25,7 +25,7 @@ class ViewPagerDataSource {
     this.pageIdentities = [];
   }
 
-  cloneWithPages(
+  cloneWithRows(
       dataBlob: any,
       pageIdentities: ?Array<string>,
   ): ViewPagerDataSource {
